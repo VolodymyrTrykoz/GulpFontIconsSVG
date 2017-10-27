@@ -42,5 +42,15 @@ $global-font-icon: 'social';
       content: $icon-005-youtube-logo;
     }
   }
+  &.icon--e-mail-envelope {
+    &:before {
+      content: $icon-e-mail-envelope;
+    }
+  }
+  &.icon--padlock {
+    &:before {
+      content: $icon-padlock;
+    }
+  }
 
 }
