@@ -17,39 +17,49 @@ $global-font-icon: 'social';
     /* Some common icon stuff */
   }
 
-  &.icon--001-pinterest-logo {
+  &.icon--001-user {
     &:before {
-      content: $icon-001-pinterest-logo;
+      content: $icon-001-user;
     }
   }
-  &.icon--002-twitter-logo-silhouette {
+  &.icon--002-network {
     &:before {
-      content: $icon-002-twitter-logo-silhouette;
+      content: $icon-002-network;
     }
   }
-  &.icon--003-instagram-social-network-logo-of-photo-camera {
+  &.icon--003-twitter-logo-silhouette {
     &:before {
-      content: $icon-003-instagram-social-network-logo-of-photo-camera;
+      content: $icon-003-twitter-logo-silhouette;
     }
   }
-  &.icon--004-facebook-logo {
+  &.icon--004-right-arrow {
     &:before {
-      content: $icon-004-facebook-logo;
+      content: $icon-004-right-arrow;
     }
   }
-  &.icon--005-youtube-logo {
+  &.icon--facebook {
     &:before {
-      content: $icon-005-youtube-logo;
+      content: $icon-facebook;
     }
   }
-  &.icon--e-mail-envelope {
+  &.icon--instagram {
     &:before {
-      content: $icon-e-mail-envelope;
+      content: $icon-instagram;
     }
   }
-  &.icon--padlock {
+  &.icon--pinterest {
     &:before {
-      content: $icon-padlock;
+      content: $icon-pinterest;
+    }
+  }
+  &.icon--twitter {
+    &:before {
+      content: $icon-twitter;
+    }
+  }
+  &.icon--youtube {
+    &:before {
+      content: $icon-youtube;
     }
   }
 

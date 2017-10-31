@@ -1,6 +1,9 @@
-@import 'base/normalize';
+
 @import 'icons/iconfont__variables';
 @import 'icons/iconfont__icons';
+@import 'normalize/import-now';//attaching normalize here
+@import 'foundation';//attaching foundtion
+@include foundation-everything; // have to attach this as well
 
 $body-color : pink;
 
@@ -25,4 +28,13 @@ body {
 		margin:0;
 		padding: 0;
 	}
+}
+
+#instagram {
+  fill: green;
+}
+
+
+#facebook {
+  fill: green;
 }
